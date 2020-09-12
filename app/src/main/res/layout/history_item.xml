@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="10dp">
+    
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:text="heading"
+        app:autoSizeTextType="uniform"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:id="@+id/heading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="started on xx/xx/xx"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/heading"
+        android:id="@+id/started"
+        android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ended on xx/xx/xx"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/started"
+            android:id="@+id/ended"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="2dp"
+        android:layout_below="@+id/ended"
+        android:layout_centerHorizontal="true"
+            android:id="@+id/emoji"/>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

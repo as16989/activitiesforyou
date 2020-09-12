@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Activities For You</string>
+    <string name="welcome">Welcome to Activities For You!\n
+        To get started please fill in this short questionnaire so the app can understand what it should be recommending.\n\n
+        A rating of 5 means you fit the description very well, whilst a rating of 1 means you hardly associate yourself with the description at all.\n\n
+        Are you someone who…\n</string>
+    <string name="nowbeshown1">You will now be shown a list of 5 activities that have been tailored to your personality to improve your wellbeing.\n\nPlease choose an activity from this list that you will be able to engage with during your free time while you are at home, at your convenience.</string>
+    <string name="nowbeshown2">Now please choose an activity from this list that you will be able to engage with whilst you are busy or at work.\n\nEssentially, these are quicker activities that one could engage with in a pinch.</string>
+    <string name="nowchoosehome">Choose the next activity to do at your convenience.</string>
+    <string name="nowchoosebusy">Choose the next activity to do the next time you are busy or at work.</string>
+
+
+</resources>
